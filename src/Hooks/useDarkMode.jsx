@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
-import useWindowSize from "./useWindowSize";
+import useWindowSize from "./useWindowResize";
 
 const useDarkMode = () => {
     const [isDarkMode, setIsDarkMode] = useLocalStorage('dark-mode', false);

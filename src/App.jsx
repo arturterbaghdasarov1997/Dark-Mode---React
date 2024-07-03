@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import useDarkMode from './Hooks/useDarkMode';
-import useWindowSize from './Hooks/useWindowSize';
+import useWindowSize from './Hooks/useWindowResize';
 
 function App() {
   const [isDarkMode, toggleDarkMode] = useDarkMode();
